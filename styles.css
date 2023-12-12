@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-image: url(./img/background.png);
+  width: 1000px;
+  height: 800px;
+}
+
+.score_timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 200px 150px 100px 150px;
+  color: rgb(43, 3, 23);
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+#words_container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  padding: 20px 150px 20px 150px;
+  font-family: serif;
+  font-size: 30px;
+  word-spacing: 25px;
+  font-weight: bold;
+}
+
+button {
+  padding: 20px;
+  cursor: pointer;
+  border: solid 2px;
+  font-size: 20px;
+  background-color: #E4DCDC;
+}
+
